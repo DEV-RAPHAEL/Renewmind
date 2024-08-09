@@ -1,0 +1,84 @@
+* {
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "League Spartan", sans-serif;
+}
+
+#home main {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #060724;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#home main .text {
+  max-width: 40%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#home main .text h1 {
+  font-family: "League Spartan", sans-serif;
+  font-size: 6.8rem;
+  font-weight: 800;
+  text-align: center;
+  line-height: 1;
+}
+#home main .text h3 {
+  color: #f0e448;
+  font-size: "Copperplate Gothic";
+  font-size: 3rem;
+  line-height: 1;
+  font-weight: 400;
+}
+#home main .text .btndivs {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#home main .text .btndivs .right a {
+  background-color: #004aad !important;
+}
+#home main .text .btndivs .left, #home main .text .btndivs .right {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+#home main .text .btndivs .left h5, #home main .text .btndivs .right h5 {
+  text-align: center;
+  align-items: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 100;
+}
+#home main .text .btndivs .left a, #home main .text .btndivs .right a {
+  padding-left: 3.3rem;
+  padding-right: 3.5rem;
+  background-color: red;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+#home main .img {
+  min-width: 60%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../Asset/Image/hero.webp);
+}
+#home main .img h1 {
+  font-size: 4rem;
+  margin-top: 6rem;
+  font-weight: 550;
+}/*# sourceMappingURL=style.css.map */
