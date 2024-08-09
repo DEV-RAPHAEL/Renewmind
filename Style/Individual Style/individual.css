@@ -1,0 +1,247 @@
+body {
+  margin-right: 15.5rem;
+  margin-left: 15.5rem;
+  margin-top: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(211, 211, 211);
+}
+
+header {
+  display: flex;
+  background-image: url("../../Asset/Image/hero_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bgimg {
+  position: absolute;
+}
+.bgimg img {
+  width: 100%;
+  height: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 60px 0 235px 80px;
+  width: 650px;
+}
+
+.txtcont {
+  position: relative;
+}
+.txtcont p {
+  font-size: 25px;
+  margin: 0 0 8px 0;
+  color: aqua;
+  text-shadow: 0px 0px 10px aqua;
+}
+
+.heading {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.664);
+  padding: 20px 40px;
+  border-radius: 25px;
+}
+.heading h1 {
+  font-size: 70px;
+}
+.heading h3 {
+  font-size: 25px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 80px;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  font-size: 35px;
+  color: white;
+}
+
+.video {
+  position: relative;
+}
+.video video {
+  width: 40rem;
+}
+
+.sec1 {
+  display: flex;
+  height: 95vh;
+}
+.sec1 .sec1cont {
+  width: 100%;
+}
+.sec1 .col1 {
+  background-image: url("../../Asset/Image/project-rewire.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sec1 .col1txt {
+  padding-top: 5rem;
+  margin-top: 35rem;
+  margin-left: 5rem;
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
+.sec1 .col1txt p {
+  margin: 0;
+  padding: 5px;
+  background-color: rgba(44, 43, 41, 0.8);
+  border-radius: 3px;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+}
+
+.sec2cont {
+  width: 50%;
+  height: 1143px;
+  background: linear-gradient(71deg, #1e1b72 61.81%, #3431c6 90.72%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sec2cont video {
+  margin: 70px 0 0 0;
+  width: 40rem;
+}
+.sec2cont .sec2txt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.sec2cont .sec2txt h4 {
+  margin: 100px 0 0 0;
+  font-size: 50px;
+}
+.sec2cont .sec2txt p {
+  width: 700px;
+  margin: 100px 0 0 0;
+  font-size: 25px;
+}
+
+.div2 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.div2 .div2cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 1143px;
+  color: white;
+  text-align: center;
+  background-color: rgb(10, 35, 116);
+}
+.div2 .div2cont p {
+  font-size: 30px;
+}
+.div2 .div2cont video {
+  width: 40rem;
+  margin: 20px 0 0 0;
+}
+.div2 .div22cont {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.div2 .div22cont img {
+  position: absolute;
+  width: 50%;
+  height: 1143px;
+}
+.div2 .div22cont .txt {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: relative;
+  margin: 0 20px 80px 0;
+}
+.div2 .div22cont .txt p {
+  margin: 0 280px 170px 0;
+  font-size: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: white;
+  background-color: black;
+  padding: 15px;
+  border-radius: 15px;
+}
+.div2 .div22cont .txt span {
+  font-size: 35px;
+  color: aqua;
+  text-shadow: 0px 0px 10px aqua;
+}
+
+.outtxt {
+  margin: 70px 0 0 22rem;
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  padding: 10px 15px;
+  background-color: rgba(44, 43, 41, 0.8);
+  border-radius: 3px;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.sect3 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.sect3 .img {
+  width: 50%;
+  height: 1143px;
+}
+.sect3 .img img {
+  width: 100%;
+  height: 1143px;
+}
+.sect3 .txtcont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 50%;
+  background-color: rgb(103, 126, 164);
+}
+.sect3 .txtcont div {
+  margin: 20px 0 0 20px;
+  width: 100%;
+}
+.sect3 .txtcont div .div1 {
+  display: flex;
+  color: white;
+  font-size: 33px;
+}
+.sect3 .txtcont div .div2 {
+  display: flex;
+  justify-content: end;
+}
+
+.div2cont video {
+  width: 60px;
+}/*# sourceMappingURL=individual.css.map */

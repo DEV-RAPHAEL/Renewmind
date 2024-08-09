@@ -1,0 +1,302 @@
+// Define variables for colors, dimensions, and other reusable values
+$margin-horizontal: 15.5rem;
+$padding: 0;
+$background-color: rgb(211, 211, 211);
+$bg-opacity: 1;
+$font-size-large: 70px;
+$font-size-medium: 25px;
+$font-size-small: 25px;
+$font-size-heading: 80px;
+$font-size-subheading: 35px;
+$font-size-text: 30px;
+$font-size-secondary-text: 50px;
+$font-size-small-text: 30px;
+$video-width: 40rem;
+$border-radius: 25px;
+$border-radius-small: 3px;
+$text-shadow: 0px 0px 10px aqua;
+$color-aqua: aqua;
+$color-white: white;
+$color-black: black;
+$color-dark-bg: rgb(10, 35, 116);
+$color-gradient-start: #1e1b72;
+$color-gradient-end: #3431c6;
+$background-img-project: '../../Asset/Image/project-rewire.png';
+$background-img-hero: '../../Asset/Image/hero_bg.jpg';
+
+// General styles
+body {
+    margin-right: $margin-horizontal;
+    margin-left: $margin-horizontal;
+    margin-top: 0;
+    padding: $padding;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(211, 211, 211, $bg-opacity); // Correct usage of rgba
+}
+
+header {
+    display: flex;
+    background-image: url($background-img-hero);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgimg {
+    position: absolute;
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0 235px 80px; // Fixed casing of px
+    width: 650px;
+}
+
+.txtcont {
+    position: relative;
+
+    p {
+        font-size: $font-size-medium;
+        margin: 0 0 8px 0;
+        color: $color-aqua;
+        text-shadow: $text-shadow;
+    }
+}
+
+.heading {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 20px 40px;
+    border-radius: $border-radius;
+
+    h1 {
+        font-size: $font-size-large;
+    }
+
+    h3 {
+        font-size: $font-size-medium;
+    }
+}
+
+h1 {
+    margin: 0;
+    font-size: $font-size-heading;
+    color: $color-white;
+}
+
+h3 {
+    margin: 0;
+    font-size: $font-size-subheading;
+    color: $color-white;
+}
+
+.video {
+    position: relative;
+
+    video {
+        width: $video-width;
+    }
+}
+
+.sec1 {
+    display: flex;
+    height: 95vh;
+
+    .sec1cont {
+        width: 100%;
+        width: 50%;
+    }
+
+    .col1 {
+        background-image: url($background-img-project);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+    }
+
+    .col1txt {
+        padding-top: 5rem;
+        margin-top: 35rem;
+        margin-left: 5rem;
+        font-size: 22px;
+        color: $color-white;
+        text-align: center;
+
+        p {
+            margin: 0;
+            padding: 5px;
+            background-color: #2c2b29cc;
+            border-radius: $border-radius-small;
+            width: fit-content;
+            text-align: center;
+        }
+    }
+}
+
+.sec2cont {
+    width: 50%;
+    height: 1143px;
+    background: linear-gradient(71deg, $color-gradient-start 61.81%, $color-gradient-end 90.72%);
+    color: $color-white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    video {
+        margin: 70px 0 0 0;
+        width: 40rem;
+    }
+    .sec2txt {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        h4 {
+            margin: 100px 0 0 0;
+            font-size: $font-size-secondary-text;
+        }
+
+        p {
+            width: 700px;
+            margin: 100px 0 0 0;
+            font-size: $font-size-medium;
+        }
+
+      
+    }
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    .div2cont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        height:  ;
+        color: $color-white;
+        text-align: center;
+        background-color: $color-dark-bg;
+
+        p {
+            font-size: $font-size-text;
+        }
+
+        video {
+            width: $video-width;
+            margin: 20px 0 0 0;
+        }
+    }
+
+
+
+    .div22cont {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        img {
+            position: absolute;
+            width: 50%;
+            height: 1143px;
+        }
+
+        .txt {
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            position: relative;
+            margin: 0 20px 80px 0;
+
+            p {
+                margin: 0 280px 170px 0;
+                font-size: $font-size-small-text;
+                width: fit-content;
+                color: $color-white;
+                background-color: $color-black;
+                padding: 15px;
+                border-radius: 15px;
+            }
+
+            span {
+                font-size: 35px;
+                color: $color-aqua;
+                text-shadow: $text-shadow;
+            }
+        }
+    }
+}
+
+.outtxt {
+    margin: 70px 0 0 22rem;
+    color: $color-white;
+    font-size: 40px;
+    position: absolute;
+    padding: 10px 15px;
+    background-color: #2c2b29cc;
+    border-radius: $border-radius-small;
+    width: fit-content;
+}
+
+.sect3 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    .img {
+        width: 50%;
+        height: 1143px;
+
+        img {
+            width: 100%;
+            height: 1143px;
+        }
+    }
+
+    .txtcont {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 50%;
+        background-color: rgb(103, 126, 164);
+
+        div {
+            margin: 20px 0 0 20px;
+            width: 100%;
+
+            .div1 {
+                display: flex;
+                color: $color-white;
+                font-size: 33px;
+            }
+
+            .div2 {
+                display: flex;
+                justify-content: end;
+            }
+        }
+    }
+}
+
+.div2cont video {
+    width: 60px;
+}
